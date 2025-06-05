@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd42ad00-85db-4d57-a8b7-8ca6190a2bc5" name="Changes" comment="Cleaned the files">
+    <list default="true" id="fd42ad00-85db-4d57-a8b7-8ca6190a2bc5" name="Changes" comment="Added C# code of the unity project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_emg_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_emg_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityCode/EMGReceiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/unityCode/EMGReceiver.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;coursework&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tapio/PycharmProjects/Biosignals&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tapio/PycharmProjects/Biosignals/unityCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tapio\PycharmProjects\Biosignals\unityCode" />
       <recent name="C:\Users\tapio\PycharmProjects\Biosignals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -231,7 +234,8 @@
       <workItem from="1748505965924" duration="6631000" />
       <workItem from="1748846538066" duration="429000" />
       <workItem from="1749023873348" duration="4115000" />
-      <workItem from="1749116419804" duration="3747000" />
+      <workItem from="1749116419804" duration="4382000" />
+      <workItem from="1749126656327" duration="5085000" />
     </task>
     <task id="LOCAL-00001" summary="Files for coursework.">
       <option name="closed" value="true" />
@@ -249,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749119805150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added C# code of the unity project.">
+      <option name="closed" value="true" />
+      <created>1749120240727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749120240727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +270,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Files for coursework." />
     <MESSAGE value="Cleaned the files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned the files" />
+    <MESSAGE value="Added C# code of the unity project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added C# code of the unity project." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Biosignals$simple_emg_detector.coverage" NAME="simple_emg_detector Coverage Results" MODIFIED="1749119101370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

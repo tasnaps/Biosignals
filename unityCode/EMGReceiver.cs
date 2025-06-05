@@ -113,7 +113,7 @@ public class EMGReceiver : MonoBehaviour
             yield return null;
         }
     }
-
+    public PlayerController playerController;
     void Update()
     {
         // If the flag was set by OnClientConnected, start the coroutine now (on main thread)
@@ -127,7 +127,7 @@ public class EMGReceiver : MonoBehaviour
         if (_latestValues.TryGetValue("emg", out float emgVal))
         {
             float clamped = Mathf.Clamp01(emgVal);
-            Shader.SetGlobalFloat("_EmgActivation", clamped);
+            playerController.CurrentEmg = clamped;
         }
     }
 
